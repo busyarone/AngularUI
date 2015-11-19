@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="spa">
+<head>
+<link rel="stylesheet" type="text/css" href="bower_components/dist/css/bootstrap.min.css"/>
+</head>
+<!--<body ng-controller="StoreController as store">-->
+<body>
+	
+	<!--<ul class="list-group">
+		<li class="list-group-item" ng-repeat = "product in store.products">
+
+			<h3>
+				{{product.name}}
+				<em class="pull-right">{{product.price|currency}} </em>
+				<!--{{product}}-->
+				<!--<img ng-src = "{{product.images[0].full}}"/>
+			</h3>
+		</li>
+	</ul>-->
+
+	<!--<div ng-repeat ="product in store.products">
+		<h1>{{product.name}} </h1>
+		<h2> {{product.price}}</h2>
+		<p> {{product.description}}</p>
+		<button ng-show="product.canPurchase">Add to cart </button>
+
+	</div>-->
+	<!-- Access store controller from app.js and give an alias name to it-->
+	<!--<div ng-hide ="store.product.soldOut">
+		{{store}}
+		<h1>{{store.product.name}} </h1>
+		<h2> {{store.product.price}}</h2>
+		<p> {{store.product.description}}</p>
+		<button ng-show="store.product.canPurchase">Add to cart </button>
+
+	</div>-->
+	<script type="text/javascript" src="builds/development/js/_bower.js"></script>
+	<!--<script type ="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>-->
+	<script type="text/javascript" src="builds/development/js/app.js"></script>
+	<p> Hello World!! </p>
+	<p>{{"Hello" + "  Arone!!"}}</p>
+</body>
+</html>
